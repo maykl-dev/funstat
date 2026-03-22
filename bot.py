@@ -8,9 +8,9 @@ import threading
 import asyncio,os,json
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-TELEGRAM_TOKEN = 'Token Bot'
+TELEGRAM_TOKEN = '8611007287:AAFdF44d2mjJ5OKjECgU6ni3HpVnfDgJgso'
 DB_FILE = 'db/monitor.db'
-ADMIN_ID = 123456789
+ADMIN_ID = 32798393
 MAX_LIMIT = 50
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 ACCOUNTS_FOLDER = 'accounts'
